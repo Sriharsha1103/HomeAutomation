@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "143209531021",
+    "firebase_url": "https://homeautomation-1103.firebaseio.com",
+    "project_id": "homeautomation-1103",
+    "storage_bucket": "homeautomation-1103.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143209531021:android:791c0a796cacd026",
+        "android_client_info": {
+          "package_name": "com.example.aammu.homeautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143209531021-goo1gbn5jm8met4snsrt54o20ujnoot1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeC373EkZI_DOWz5kkLAo6dbiUJy-IrwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

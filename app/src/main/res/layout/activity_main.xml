@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aammu.homeautomation.MainActivity">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_swipe_refresh">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="48dp"
+                        >
+
+
+                        <Switch
+                            android:id="@+id/id_fan1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fan1"
+                            android:layout_marginTop="28dp"
+                            />
+
+                        <Switch
+                            android:id="@+id/id_fan2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fan2"
+                            android:layout_marginTop="28dp"/>
+
+                        <Switch
+                            android:id="@+id/id_fan3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fan3"
+                            android:layout_marginTop="28dp"/>
+
+                        <Switch
+                            android:id="@+id/id_fan4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fan4"
+                            android:layout_marginTop="28dp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="48dp"
+                        >
+
+
+                        <Switch
+                            android:id="@+id/id_light1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Light1"
+                            android:layout_marginTop="28dp"/>
+
+                        <Switch
+                            android:id="@+id/id_light2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Light2"
+                            android:layout_marginTop="28dp"/>
+
+                        <Switch
+                            android:id="@+id/id_light3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Light3"
+                            android:layout_marginTop="28dp"/>
+
+                        <Switch
+                            android:id="@+id/id_light4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Light4"
+                            android:layout_marginTop="28dp"/>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <Switch
+                    android:id="@+id/id_all_fans_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Fans On"
+                    android:layout_marginTop="28dp"
+                    android:layout_gravity="center"/>
+                <Switch
+                    android:id="@+id/id_all_lights_on"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Lights On"
+                    android:layout_marginTop="28dp"/>
+                <Switch
+                    android:id="@+id/id_all_fans_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Fans Off"
+                    android:layout_marginTop="28dp"
+                    android:layout_gravity="center"/>
+                <Switch
+                    android:id="@+id/id_all_lights_off"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Lights Off"
+                    android:layout_marginTop="28dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
